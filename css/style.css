@@ -538,7 +538,7 @@ ul>li>a:hover::after {
 
 /* live count section */
 .live-section {
-    padding-block:5px 80px;
+    padding-block: 5px 80px;
 }
 
 .center {
@@ -597,6 +597,8 @@ ul>li>a:hover::after {
 }
 
 @media screen and (max-width:992px) {
+
+    /* header section */
     .nav-collapse {
         display: none;
         text-align: center;
@@ -607,6 +609,7 @@ ul>li>a:hover::after {
         transition: ease-in 9000ms;
         transform: translateY(210px);
         background: var(--secondary-color);
+        font-size: 15px;
     }
 
     .nav-toggler {
@@ -647,6 +650,10 @@ ul>li>a:hover::after {
         margin-top: 40px;
         background: var(--primary-color);
         color: var(--secondary-color);
+    }
+
+    .contact-btn {
+        padding: 15px 20px;
     }
 
     .nav-logo>a>img {
@@ -701,9 +708,10 @@ ul>li>a:hover::after {
     }
 
     /* method to find house section */
-    .house-section{
+    .house-section {
         padding: 40px 0;
     }
+
     .col-50 {
         width: 100%;
     }
@@ -715,8 +723,9 @@ ul>li>a:hover::after {
     .house-content>p {
         font-size: 15px;
     }
+
     /* blog section */
-    .blog-section{
+    .blog-section {
         padding: 40px 0;
     }
 
@@ -735,6 +744,11 @@ ul>li>a:hover::after {
 
 @media screen and (max-width:576px) {
 
+    /* header-section */
+    .nav-collapse {
+        font-size: 12px;
+    }
+
     /* hero section */
     h1 {
         font-size: 35px;
@@ -748,9 +762,10 @@ ul>li>a:hover::after {
 
 
     /* property section */
-    h2{
-        font-size:25px ;
+    h2 {
+        font-size: 25px;
     }
+
     .col-4 {
         width: 100%;
     }
