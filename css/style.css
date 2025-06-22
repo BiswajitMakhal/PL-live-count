@@ -769,6 +769,9 @@ ul>li>a:hover::after {
     .col-4 {
         width: 100%;
     }
+    .primary-btn,.secondary-btn{
+        padding: 14px 35px;
+    }
 
     /* LIVE COUNT SECTION */
     .stats {
