@@ -70,7 +70,7 @@ counters.forEach(counter => {
     const suffix = counter.getAttribute('data-suffix') || '';
     const count = +counter.innerText;
 
-    const increment = target / 1000;
+    const increment = target / 100;
 
     if (count < target) {
       counter.innerText = Math.ceil(count + increment) + suffix;
